@@ -139,7 +139,9 @@ Skill 将执行完整五步流水线并输出最终初稿。
 
 ## 输出示例
 
-详见 `evals/iteration-1/eval-1-with_skill/outputs/output.md`，主题为**"基层治理中的形式主义现象"**（6篇文献，约850字）。
+详见 `examples/formalism-output.md`，主题为**"基层治理中的形式主义现象"**（6篇文献，约850字）。
+
+完整展示了五步流水线的中间输出（话语体系分类 → 主题聚类整合 → 核心分歧诊断 → 双重视角缺口探测 → 学术语态缝合）以及最终正文初稿。
 
 ---
 
@@ -176,12 +178,12 @@ Skill 将执行完整五步流水线并输出最终初稿。
 
 ```
 SCI_introduction/
-├── SKILL.md                  ← Skill 定义文件（五步流水线）
+├── SKILL.md                  ← 核心技能（五步流水线）
 ├── README.md                 ← 本文件（GitHub 仓库首页）
 ├── EVALUATION_REPORT.md      ← 完整评测报告
-└── evals/
-    ├── evals.json            ← 测试用例定义（3个）
-    └── iteration-1/           ← 评测所有输出文件
+├── SAMPLE INPUT.md           ← 文献笔记填写模板（用户用这个）
+└── examples/
+    └── formalism-output.md   ← 输出示例（完整五步流水线结果）
 ```
 
 ---
