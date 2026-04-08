@@ -173,31 +173,9 @@ Skill 将执行完整五步流水线并输出最终初稿。
 
 ## 输出示例
 
-本项目的 `examples/` 目录包含两类资源：
+详见 `examples/formalism-output.md`，展示第五步"学术语态缝合"的最终输出格式。
 
-| 目录 | 内容 |
-|------|------|
-| `examples/prompts/` | 各步骤的 Prompt 模板（含输入格式说明） |
-| `examples/formalism-output.md` | 最终输出示例（研究现状正文格式） |
-
-### prompts/ 目录结构
-
-```
-examples/prompts/
-├── step1-discourse-classification.md   ← 第一步 Prompt 模板
-├── step2-theme-clustering.md          ← 第二步 Prompt 模板
-├── step3-gap-diagnosis.md             ← 第三步 Prompt 模板
-├── step4-gap-probing.md                ← 第四步 Prompt 模板
-├── step5a-writing.md                 ← 第五步A：写作初稿 Prompt
-├── step5b-review.md                   ← 第五步B：质量审查 Prompt
-└── step5c-finalize.md                ← 第五步C：最终润色 Prompt
-```
-
-### formalism-output.md
-
-展示第五步"学术语态缝合"的最终输出格式（研究现状正文模板）。
-
-详见 `examples/formalism-output.md`。
+各步骤的 Prompt 模板位于 `references/prompts/` 目录，详见下方文件结构。
 
 ---
 
@@ -242,17 +220,17 @@ SCI_introduction/
 ├── scripts/
 │   └── extract_literature.py     ← PDF 文献元数据批量提取脚本
 ├── references/
-│   └── literature-extraction-guide.md  ← 文献准备详细指南
+│   ├── literature-extraction-guide.md  ← 文献准备详细指南
+│   └── prompts/                  ← 各步骤 Prompt 模板
+│       ├── step1-discourse-classification.md
+│       ├── step2-theme-clustering.md
+│       ├── step3-gap-diagnosis.md
+│       ├── step4-gap-probing.md
+│       ├── step5a-writing.md
+│       ├── step5b-review.md
+│       └── step5c-finalize.md
 └── examples/
-    ├── formalism-output.md       ← 最终输出示例（研究现状正文格式）
-    └── prompts/                 ← 各步骤 Prompt 模板
-        ├── step1-discourse-classification.md
-        ├── step2-theme-clustering.md
-        ├── step3-gap-diagnosis.md
-        ├── step4-gap-probing.md
-        ├── step5a-writing.md
-        ├── step5b-review.md
-        └── step5c-finalize.md
+    └── formalism-output.md       ← 最终输出示例（研究现状正文格式）
 ```
 
 ---
