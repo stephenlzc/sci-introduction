@@ -4,6 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.txt)
 ![Skill Version](https://img.shields.io/badge/version-1.0-green.svg)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-sci--introduction-blue?logo=github)](https://github.com/stephenlzc/sci-introduction)
 
 ---
 
@@ -109,15 +110,21 @@
 
 ### 安装
 
-将本目录复制到 Claude Code 的 skills 文件夹：
+**方式一：从 GitHub 安装**
 
 ```bash
-# Claude Code
-cp -r /path/to/SCI_introduction ~/.claude/skills/
-
-# 或项目级使用
-cp -r /path/to/SCI_introduction /your/project/.claude/skills/
+git clone https://github.com/stephenlzc/sci-introduction.git ~/.claude/skills/SCI_introduction
 ```
+
+**方式二：手动复制**
+
+将本仓库复制到 Claude Code 的 skills 文件夹：
+
+```bash
+cp -r /path/to/SCI_introduction ~/.claude/skills/
+```
+
+> 仓库地址：`https://github.com/stephenlzc/sci-introduction`
 
 ### 使用
 
