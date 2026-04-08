@@ -5,6 +5,10 @@
 evals/iteration-1/
 evals/test_output.md
 
+# Test output directories
+test_sample/
+test_SCI_intro/
+
 # Editor/IDE
 .vscode/
 .idea/
