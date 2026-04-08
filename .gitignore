@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Evaluation artifacts — these are generated files
+evals/iteration-1/
+evals/test_output.md
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo

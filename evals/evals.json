@@ -1,0 +1,23 @@
+{
+  "skill_name": "sci-introduction",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我的研究主题是\"基层治理中的形式主义现象\"，我整理了一批文献笔记，需要你帮我写出国内外研究现状部分。文献列表如下：\n\n【国际文献】\n1. Lipsky (1980) - Street-Level Bureaucracy: 官僚组织中一线工作人员的裁量权问题，认为形式主义是基层应对资源不足的策略性行为。\n2. Brewer (1994) - A Policy Implementation Perspective: 从政策执行角度，认为形式主义是政策目标与基层执行能力之间落差的产物。\n3. Hummel (1994) - The Bureaucratic Model: 从公共行政理论批判官僚制本身的形式主义内生性。\n\n【国内文献】\n1. 李强 (2015) - 基层形式主义的制度根源: 认为形式主义源于压力型体制下的层层加码。\n2. 王敏 (2018) - 基层干部的形式主义行为逻辑: 从干部个人理性选择角度解释形式主义的产生机制。\n3. 陈捷 (2020) - 形式主义与基层治理现代化: 认为形式主义阻碍了治理现代化进程。",
+      "expected_output": "应输出完整的五步流水线结果：话语体系分类对比矩阵 → 主题聚类（3-4个核心主题）→ 核心分歧诊断（约200字批判性段落）→ 研究缺口定位（国际缺X/国内缺Y/本文填补Z）→ 期刊级研究现状初稿。禁止报菜名式写法，必须按主题聚类，包含对比性转折句式。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "我的研究是关于\"数字技术对社区参与的影响\"，帮我梳理国内外研究现状。我搜集了这些文献的摘要：\n\n【国际文献】\n1. Nabatchi et al. (2017) - Public Participation and Information and Communication Technology: 认为ICT增强了参与便利性，但数字鸿沟削弱了参与的包容性。\n2. Lee et al. (2019) - Digital Platforms and Civic Engagement: 发现社交媒体平台在动员年轻人参与方面效果显著，但深度参与不足。\n3. Schlozman et al. (2010) - Unequal and Voiceless: The decline of traditional civic participation shows the participation inequality problem.\n\n【国内文献】\n1. 张伟 (2019) - 数字社区参与的本土实践: 数字政务平台在提升公众参与便利性方面的作用，以及基层政府的应对困境。\n2. 刘芳 (2021) - 社交媒体与社区治理: 微博微信在社区信息传递和居民互动中的作用机制。\n3. 孙立 (2022) - 数字鸿沟与社区参与的不平等: 发现老年人在数字参与中的边缘化问题。",
+      "expected_output": "应输出完整的五步流水线结果，包含：对比矩阵、3-4个主题聚类、批判性分歧诊断段落、研究缺口（国际缺X/国内缺Y/本文填补Z逻辑链）、最终学术散文初稿。需体现国内外在理论视角上的根本差异。",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "我写的是\"社会企业在中国的发展困境\"这个题目，要做国内外研究现状的述评，帮我把文献综述写出来。文献：\n\n【国际文献】\n1. Dees (1998) - The Social Enterprise Spectrum: 提出社会企业的概念框架，认为其核心是运用商业手段解决社会问题。\n2. Mair & Schoen (2017) - Institutional Context and Social Enterprises: 研究制度环境对社会企业发展的塑造作用。\n3. Battilana & Lee (2014) - Advancing Research on Hybrid Organizations: 研究社会企业作为混合组织的独特挑战。\n\n【国内文献】\n1. 严中华 (2016) - 社会企业在中国的本土化路径: 认为中国社会企业面临与政府关系处理的独特困境。\n2. 赵明 (2019) - 社会企业合法性问题研究: 从组织合法性理论出发，认为社会企业在中国的合法性建构路径与西方不同。\n3. 何炜 (2020) - 社会企业参与社会治理: 社会企业在社会治理体系中扮演的角色研究。",
+      "expected_output": "应输出完整五步流水线结果，按主题（而非作者）聚类，有明确的国内外对比性转折句式，有完整的'国际缺X→国内缺Y→本文填补Z'研究缺口逻辑链，最终输出达到期刊发表标准的学术散文。",
+      "files": []
+    }
+  ]
+}
