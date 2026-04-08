@@ -3,8 +3,30 @@
 > 一个用于写顶刊级"国内外研究现状"的 Claude Skill——消灭报菜名写法、结构化缺口逻辑、批判认识论深度。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.txt)
-![Skill Version](https://img.shields.io/badge/version-1.0-green.svg)
+![Skill Version](https://img.shields.io/badge/version-2.0-green.svg)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-sci--introduction-blue?logo=github)](https://github.com/stephenlzc/sci-introduction)
+
+---
+
+## 核心功能亮点
+
+### 五步写作流水线
+从文献笔记到期刊级初稿，全自动执行：
+```
+① 话语体系分类 → ② 主题聚类整合 → ③ 核心分歧诊断 → ④ 双重视角缺口探测 → ⑤ 学术语态缝合
+```
+
+### 批判性认识论深度
+不仅罗列文献，**更揭示国内外研究在认识论层面的根本分歧**——为什么同样的概念在国际和国内语境下会被不同地理论化和经验化。
+
+### 研究缺口逻辑链
+严格遵循 **"国际研究缺乏 X → 国内研究缺乏 Y → 本文填补 Z"** 的完整链条，每一处研究缺口都有逻辑支撑。
+
+### 双重引用格式
+`(作者, 年份)^{[1]}` 双重格式，参考文献合并为单一顺序列表，符合 GB/T 7714-2015 国家标准。
+
+### 实战验证
+已成功处理 **24篇文献（8篇国际 + 16篇国内）**，输出约2,200字研究现状。
 
 ---
 
@@ -176,7 +198,7 @@ Skill 将执行完整五步流水线并输出最终初稿。
 基于 3 个盲测用例评估（形式主义 / 数字社区参与 / 社会企业困境）：
 
 | 指标 | With-Skill | 无 Skill（Baseline） |
-|---|---|---|
+|---|---|
 | 质量得分 | **30/30** | 17.3/30 |
 | 报菜名写法 | **0次** | 3个用例全出现 |
 | 完整缺口逻辑链 | **3/3** | 0/3 |
