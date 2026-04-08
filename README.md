@@ -128,10 +128,22 @@ cp -r /path/to/SCI_introduction ~/.claude/skills/
 
 ### 使用
 
-调用本 Skill，然后提供：
+**第一步：准备文献笔记**
 
+1. 下载与你研究主题相关的 PDF 文献（建议 10-24 篇）
+2. 使用 `scripts/extract_literature.py` 批量提取 PDF 元数据：
+   ```bash
+   pip install pymupdf
+   python scripts/extract_literature.py /path/to/papers/ --output literature.json
+   ```
+3. 参考 `references/literature-extraction-guide.md` 补充理论视角和核心发现
+4. 将整理好的文献填入 `SAMPLE INPUT.md` 表格
+
+**第二步：启动流水线**
+
+调用本 Skill，然后提供：
 1. **你的研究主题**（例如："基层治理中的形式主义现象"）
-2. **文献笔记**（作者、年份、摘要/笔记——国内外混合）
+2. **文献笔记**（`SAMPLE INPUT.md` 中的表格——国内外分开）
 
 Skill 将执行完整五步流水线并输出最终初稿。
 
@@ -178,12 +190,17 @@ Skill 将执行完整五步流水线并输出最终初稿。
 
 ```
 SCI_introduction/
-├── SKILL.md                  ← 核心技能（五步流水线）
-├── README.md                 ← 本文件（GitHub 仓库首页）
-├── EVALUATION_REPORT.md      ← 完整评测报告
-├── SAMPLE INPUT.md           ← 文献笔记填写模板（用户用这个）
+├── SKILL.md                      ← 核心技能（五步流水线）
+├── README.md                     ← 本文件（GitHub 仓库首页）
+├── EVALUATION_REPORT.md          ← 完整评测报告
+├── SAMPLE INPUT.md               ← 文献笔记填写模板（用户用这个）
+├── .gitignore                    ← 忽略评测产物和临时文件
+├── scripts/
+│   └── extract_literature.py     ← PDF 文献元数据批量提取脚本
+├── references/
+│   └── literature-extraction-guide.md  ← 文献准备详细指南
 └── examples/
-    └── formalism-output.md   ← 输出示例（完整五步流水线结果）
+    └── formalism-output.md       ← 输出示例（完整五步流水线结果）
 ```
 
 ---
