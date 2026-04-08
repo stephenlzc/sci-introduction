@@ -173,9 +173,9 @@ Skill 将执行完整五步流水线并输出最终初稿。
 
 ## 输出示例
 
-详见 `examples/formalism-output.md`，主题为**"基层治理中的形式主义现象"**（6篇文献，约850字）。
+详见 `examples/formalism-output.md`，展示第五步"学术语态缝合"的最终输出格式。
 
-完整展示了五步流水线的中间输出（话语体系分类 → 主题聚类整合 → 核心分歧诊断 → 双重视角缺口探测 → 学术语态缝合）以及最终正文初稿。
+仅包含研究现状正文模板和参考文献格式规范，不包含五步流水线的中间步骤（那些在 SKILL.md 中已详细说明）。
 
 ---
 
@@ -222,7 +222,7 @@ SCI_introduction/
 ├── references/
 │   └── literature-extraction-guide.md  ← 文献准备详细指南
 └── examples/
-    └── formalism-output.md       ← 输出示例（完整五步流水线结果）
+    └── formalism-output.md       ← 第五步输出模板（研究现状正文格式）
 ```
 
 ---
